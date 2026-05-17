@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Table Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav style="padding:10px;background:#eee;">
+      <a href="index.html" style="margin-right:12px">Table</a>
+      <a href="../todo/index.html" style="margin-right:12px">To‑Do</a>
+      <a href="../palette/index.html" style="margin-right:12px">Palette</a>
+      <a href="../modal/index.html">Modal</a>
+    </nav>
+  </header>
+  <main class="container">
+    <h2>Table Generator</h2>
+    <div class="form">
+      <input id="name" placeholder="Name">
+      <input id="role" placeholder="Role">
+      <select id="status"><option>Active</option><option>Pending</option><option>Inactive</option></select>
+      <button id="add">Add Row</button>
+    </div>
+    <table id="tbl" border="1" style="width:100%;margin-top:12px"><thead><tr><th>#</th><th>Name</th><th>Role</th><th>Status</th></tr></thead><tbody></tbody></table>
+  </main>
+  <script src="javascript.js"></script>
+</body>
+</html>

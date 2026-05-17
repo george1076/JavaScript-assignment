@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Modal Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav style="padding:10px;background:#eee;">
+      <a href="index.html" style="margin-right:12px">Modal</a>
+      <a href="../todo/index.html" style="margin-right:12px">To‑Do</a>
+      <a href="../palette/index.html" style="margin-right:12px">Palette</a>
+      <a href="../table/index.html">Table</a>
+    </nav>
+  </header>
+  <main class="container">
+    <h2>Modal / Popup</h2>
+    <button id="open">Open Modal</button>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <button id="close" style="float:right">✕</button>
+        <h3>Modal Title</h3>
+        <p>This is modal content. You can add any HTML here.</p>
+      </div>
+    </div>
+  </main>
+  <script src="javascript.js"></script>
+</body>
+</html>

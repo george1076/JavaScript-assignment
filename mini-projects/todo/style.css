@@ -1,0 +1,8 @@
+body{font-family:Arial,Helvetica,sans-serif;padding:12px}
+.container{max-width:600px;margin:16px auto}
+.add input{padding:8px;width:70%}
+.add button{padding:8px}
+#taskList{list-style:none;padding:0;margin-top:12px}
+#taskList li{background:#f7f7f7;margin-bottom:8px;padding:8px;display:flex;justify-content:space-between;align-items:center}
+.task-text{flex:1}
+.task-controls button{margin-left:6px}

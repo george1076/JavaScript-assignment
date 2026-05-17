@@ -1,0 +1,5 @@
+body{font-family:Arial,Helvetica,sans-serif;padding:12px}
+.container{max-width:800px;margin:16px auto}
+.modal{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);visibility:hidden;opacity:0;transition:opacity .2s}
+.modal[aria-hidden="false"]{visibility:visible;opacity:1}
+.modal-content{background:#fff;padding:18px;border-radius:6px;max-width:400px;width:90%}
