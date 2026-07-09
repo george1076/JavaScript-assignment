@@ -1,6 +1,3 @@
-# JavaScript assignment
-
-Student: سما صبحي اسحاق
 
 This repository contains four mini-projects:
 
